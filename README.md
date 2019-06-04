@@ -60,6 +60,6 @@ The output file would be something in the following format.
 {"date": "2018-12-26 18:23:00", "average_delivery_time": 31}
 {"date": "2018-12-26 18:24:00", "average_delivery_time": 42.5}
 
-**Output:: **
+**Output::**
 
 is stored in data.json which is in JSON Format and output.txt contains the given output format.
