@@ -1,12 +1,12 @@
-**Moving average problem
+**Moving average problem**
 
 The machine should  have python3 installed and have the json and argparse dependencies installed.
 
-**Running the code:
+**Running the code:**
 
 Inside the repository folder execute python unbabel_cli.py --input_file <input json file> --window_size <window size in minutes>
 
-For usage help, run python **unbabel_cli.py --help.
+For usage help, run python **unbabel_cli.py --help**
 
 Problem given is a typical sliding window problem. Solution is built around event streams, meaning
 that it should always be processing data and output its results in real-time as well.
@@ -27,15 +27,15 @@ exit_requirement_error -- Utility function to display on requirement mismatch er
 main_func -- Main Function which loads the event data, sort the data and compute the moving average time and writes to
             data.json and output.txt.
 
-**Examples::
+**Examples::**
 
-**Challenge Objective:
+**Challenge Objective:**
 
 Your mission is to build a simple command line application that parses a stream of events and produces an aggregated output. In this case, we're interested in calculating, for every minute, a moving average of the translation delivery time for the last X minutes.
 
 If we want to count, for each minute, the moving average delivery time of all translations for the past 10 minutes we would call your application like (feel free to name it anything you like!).
 
-**unbabel_cli --input_file events.json --window_size 10
+**unbabel_cli --input_file events.json --window_size 10**
 
 The input file format would be something like:
 
@@ -60,6 +60,6 @@ The output file would be something in the following format.
 {"date": "2018-12-26 18:23:00", "average_delivery_time": 31}
 {"date": "2018-12-26 18:24:00", "average_delivery_time": 42.5}
 
-**Output:: 
+**Output:: **
 
 is stored in data.json which is in JSON Format and output.txt contains the given output format.
