@@ -1,13 +1,19 @@
-**Moving average problem**
+# Moving average Solution #
 
-The machine should  have python3 installed and have the json and argparse dependencies installed.
+Hey Unbabel Team!
 
-**Running the code:**
+**Environment Specification:#
 
-Inside the repository folder execute python unbabel_cli.py --input_file <input json file> --window_size <window size in minutes>
+The machine should have python3 installed and have the json and argparse dependencies installed.
+
+**Executing the code:**
+
+Navigate to the repository folder and execute the below line of code in the command prompt.
+```python unbabel_cli.py --input_file <input json file> --window_size <window size in minutes>```
 
 For usage help, run python **unbabel_cli.py --help**
 
+** Code
 Problem given is a typical sliding window problem. Solution is built around event streams, meaning
 that it should always be processing data and output its results in real-time as well.
 To achieve this, the program can take its input from a regular file
@@ -26,8 +32,6 @@ exit_requirement_error -- Utility function to display on requirement mismatch er
 
 main_func -- Main Function which loads the event data, sort the data and compute the moving average time and writes to
             data.json and output.txt.
-
-**Examples::**
 
 **Challenge Objective:**
 
