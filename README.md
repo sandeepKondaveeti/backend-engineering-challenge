@@ -2,7 +2,7 @@
 
 Hey Unbabel Team!
 
-**Environment Specification:#
+**Environment Specification:**
 
 The machine should have python3 installed and have the json and argparse dependencies installed.
 
